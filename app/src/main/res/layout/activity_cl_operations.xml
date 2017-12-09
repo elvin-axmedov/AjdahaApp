@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.ajdahaapp.Activities.ClOperations">
+
+    <TableLayout
+        android:layout_width="395dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/btnClList"
+                style="@android:style/Widget.Button"
+                android:layout_width="195dp"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:text="Client List"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnExtra"
+                style="@android:style/Widget.Button"
+                android:layout_width="195dp"
+                android:layout_height="192dp"
+                android:elevation="0dp"
+                android:text="Extra by Group Code"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button4"
+                style="@android:style/Widget.Button"
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:text="Empty"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@android:style/Widget.Button"
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:text="Empty"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="205dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button7"
+                style="@android:style/Widget.Button"
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:text="Empty"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="205dp" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@android:style/Widget.Button"
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="@android:dimen/thumbnail_height"
+                android:text="Empty"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="205dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
